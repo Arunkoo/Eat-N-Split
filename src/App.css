@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btnStyle {
+    @apply bg-orange-500  shadow-xl shadow-orange-900  text-base font-Nunito ml-10 px-3 py-1 rounded-full font-semibold focus:outline-none focus:ring focus:ring-orange-500 hover:bg-orange-600 focus:ring-offset-1;
+  }
+  .formLabel {
+    @apply text-lg font-Nunito font-semibold;
+  }
+  .formInput {
+    @apply rounded-xl p-1 shadow-lg;
+  }
+  .formSpace {
+    @apply flex justify-between items-center;
+  }
+}
